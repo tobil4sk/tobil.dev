@@ -1,10 +1,13 @@
 body {
-  text-align: center;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
   font-family: sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(0, 123, 255, 0.12), transparent 34%),
+    linear-gradient(180deg, #f8fbff 0%, #eef3f9 100%);
+  color: #1f2933;
 }
 
 main {
@@ -16,8 +19,28 @@ main {
 }
 
 footer {
+  text-align: center;
   margin-top: auto;
   padding: 1.5rem 1rem 2rem;
   color: #667085;
 }
 
+p {
+  margin: 1rem 0 0;
+  max-width: 34rem;
+  line-height: 1.7;
+  color: #475467;
+}
+
+a {
+  color: #0b69ff;
+  text-underline-offset: 0.2em;
+  font-weight: 600;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  line-height: 1.05;
+  color: #0f172a;
+}
