@@ -33,8 +33,8 @@ function main() {
 	sys.FileSystem.createDirectory(OUTPUT);
 
 	saveContent("index.htm", new Home());
-	saveContent("404.htm", new Error404());
 	saveContent("contact.htm", new Contact());
+	saveContent("404.html", new Error404());
 
 	File.copy("templates/style.css", Path.join([OUTPUT, "style.css"]));
 }
