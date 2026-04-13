@@ -113,3 +113,23 @@ h1 {
   object-fit: contain;
   border-radius: 0.2rem;
 }
+
+@media (max-width: 640px) {
+  main {
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem 3rem;
+  }
+
+  .navbar {
+    padding: 1rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .contact-links {
+    grid-template-columns: 1fr;
+  }
+}
