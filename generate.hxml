@@ -1,0 +1,4 @@
+--interp
+-lib hhp
+--macro hhp.Hhp.basePath("templates")
+--main Main
